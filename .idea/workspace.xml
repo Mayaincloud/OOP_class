@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8aa5f01-3973-44aa-93c7-6dcdcab2618b" name="Changes" comment="" />
+    <list default="true" id="b8aa5f01-3973-44aa-93c7-6dcdcab2618b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/GroupStreamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/InterfaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/GroupStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/comparators/GroupStreamComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/comparators/UserComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/iterators/GroupStreamIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/iterators/StudentGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/GroupStreamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/CommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/TerminalReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/CommandExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/CommandExecutableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/CreateStudentExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/DeleteStudentByFirstNameExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/DeleteStudentByGroupNumberAndeYearOfBirthExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/executable/DeleteStudentExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/WriterFromTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/GroupStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/StudentGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/comparators/GroupStreamComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/comparators/UserComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/iterators/GroundStreamIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/iterators/StudentGroupIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/GroupStreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GroupStreamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/GroupStreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GroupStreamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ReadFromTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ReadFromTxt.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KSXN1IIDUExafABhtFOv2ttuyb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +88,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -29,5 +103,20 @@
       <updated>1673968918902</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

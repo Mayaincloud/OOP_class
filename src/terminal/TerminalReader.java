@@ -1,23 +1,26 @@
 package terminal;
 
-import terminal.executable.CommandExecutable;
 import terminal.executable.CommandExecutableFactory;
+
+
 
 import java.util.Scanner;
 
 public class TerminalReader {
-    public static TerminalReader terminalReader;
-    private CommandParser commandParser;
+    private static TerminalReader terminalReader;
+    private final CommandParser commandParser;
+    private final CommandExecutableFactory commandExecutableFactory;
 
-    public static TerminalReader getInstance(CommandParser commandParser){
+    public static TerminalReader getInstance(CommandParser commandParser, CommandExecutableFactory commandExecutableFactory  ){
         if (terminalReader == null){
-            terminalReader = new TerminalReader(commandParser);
+            terminalReader = new TerminalReader(commandParser, commandExecutableFactory);
         }
         return terminalReader;
     }
 
-    private TerminalReader (CommandParser commandParser) {
+    private TerminalReader (CommandParser commandParser, CommandExecutableFactory commandExecutableFactory) {
         this.commandParser = commandParser;
+        this.commandExecutableFactory =commandExecutableFactory;
     }
 
 
@@ -25,10 +28,8 @@ public class TerminalReader {
     public void getI (int f){
         while (true){
             String command = in.nextLine();
-            String[] parseCommand = commandParser.parserCommand(command);
-            CommandExecutableFactory commandExecutableFactory = new CommandExecutableFactory();
-            CommandExecutable commandExecutable = commandExecutableFactory.create(parseCommand);
-            commandExecutable.execute();
+            Command parseCommand = commandParser.parserCommand(command);
+            //CommandExecutable commandExecutable = commandExecutableFactory.create(Command command);
         }
     }
 }

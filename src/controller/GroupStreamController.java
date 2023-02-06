@@ -3,7 +3,7 @@ package controller;
 import dto.GroupStream;
 import service.GroupStreamServiceImpl;
 
-public class GroupStreamController implements InterfaceController<GroupStream, Integer> {
+public class GroupStreamController implements Controller<GroupStream, Integer> {
 
     private final GroupStreamServiceImpl groupStreamServiceImpl;
 
@@ -17,7 +17,7 @@ public class GroupStreamController implements InterfaceController<GroupStream, I
     }
 
     @Override
-    public GroupStream find(Integer id) {
+    public GroupStream findById(Integer id) {
         return groupStreamServiceImpl.findGroupStreamById(id);
     }
 

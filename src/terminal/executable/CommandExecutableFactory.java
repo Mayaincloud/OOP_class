@@ -1,18 +1,7 @@
 package terminal.executable;
 
-import dto.Student;
-import service.StudentService;
+import terminal.Command;
 
-
-public class CommandExecutableFactory {
-    private StudentService studentService;
-    public CommandExecutable create (String [] input){
-        if (input[0].equals("/add")){
-            return new CreateStudentExecutable(studentService, new Student(input[1]));
-        }
-        else {
-            return new DeleteStudentExecutable(studentService, new Student(input[1]));
-        }
-
-    }
+public interface CommandExecutableFactory {
+    CommandExecutable create (Command command);
 }

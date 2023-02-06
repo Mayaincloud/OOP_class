@@ -1,15 +1,16 @@
 package terminal.executable;
 
 import dto.Student;
+import service.DataService;
 import service.StudentService;
 
 public class CreateStudentExecutable implements CommandExecutable {
 
-    private StudentService studentService;
-    private Student student;
+    private final DataService<Student> studentService;
+    private final Student student;
 
 
-    public CreateStudentExecutable(StudentService studentService, Student student) {
+    public CreateStudentExecutable(DataService<Student> studentService, Student student) {
         this.studentService = studentService;
         this.student = student;
     }

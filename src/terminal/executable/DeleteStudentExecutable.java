@@ -5,8 +5,8 @@ import service.StudentService;
 
 public class DeleteStudentExecutable implements CommandExecutable {
 
-    private StudentService studentService;
-    private Student student;
+    private final StudentService studentService;
+    private final Student student;
 
     public DeleteStudentExecutable(StudentService studentService, Student student) {
         this.studentService = studentService;

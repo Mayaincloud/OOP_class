@@ -1,10 +1,10 @@
 package terminal.executable;
 
-import dto.Student;
+
 import service.StudentService;
 
 public class DeleteStudentByFirstNameExecutable implements CommandExecutable {
-    private StudentService studentService;
+    private final StudentService studentService;
     private String firstName;
 
     public DeleteStudentByFirstNameExecutable(StudentService studentService, String firstName) {

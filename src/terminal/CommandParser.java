@@ -1,7 +1,7 @@
 package terminal;
 
 
-public interface CommandParser {
-    String [] parserCommand (String inputCommand);
+public interface CommandParser <E>{
+    Command parserCommand (E inputCommand);
 
 }

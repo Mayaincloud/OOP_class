@@ -3,14 +3,15 @@ package service;
 import dto.Teacher;
 import dto.comparators.UserComparator;
 import repository.TeacherRepository;
+import repository.UserRepository;
 
 import java.util.Collections;
 import java.util.List;
 
 public class TeacherService implements DataService<Teacher> {
-    private final TeacherRepository teacherRepository;
+    private final UserRepository<Teacher, Integer> teacherRepository;
 
-    public TeacherService(TeacherRepository teacherRepository) {
+    public TeacherService(UserRepository<Teacher, Integer> teacherRepository) {
         this.teacherRepository = teacherRepository;
     }
 

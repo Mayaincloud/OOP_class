@@ -1,13 +1,14 @@
 package controller;
 
 import dto.Teacher;
+import service.DataService;
 import service.TeacherService;
 
-public class TeacherController implements InterfaceController<Teacher, Integer> {
+public class TeacherController implements Controller<Teacher, Integer> {
 
-    private final TeacherService teacherService;
+    private final DataService<Teacher> teacherService;
 
-    public TeacherController(TeacherService teacherService) {
+    public TeacherController(DataService<Teacher> teacherService) {
         this.teacherService = teacherService;
     }
 
@@ -17,7 +18,7 @@ public class TeacherController implements InterfaceController<Teacher, Integer> 
     }
 
     @Override
-    public Teacher find(Integer id) {
+    public Teacher findById(Integer id) {
         return teacherService.findById(id);
     }
 

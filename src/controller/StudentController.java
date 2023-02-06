@@ -1,13 +1,14 @@
 package controller;
 
 import dto.Student;
+import service.DataService;
 import service.StudentService;
 
-public class StudentController implements InterfaceController<Student, Integer> {
+public class StudentController implements Controller<Student, Integer> {
 
-    private final StudentService studentService;
+    private final DataService<Student> studentService;
 
-    public StudentController(StudentService studentService) {
+    public StudentController(DataService<Student> studentService) {
         this.studentService = studentService;
     }
 
@@ -17,7 +18,7 @@ public class StudentController implements InterfaceController<Student, Integer> 
     }
 
     @Override
-    public Student find(Integer id) {
+    public Student findById(Integer id) {
         return studentService.findById(id);
     }
 }

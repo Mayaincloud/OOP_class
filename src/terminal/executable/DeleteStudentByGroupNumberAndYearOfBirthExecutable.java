@@ -3,11 +3,11 @@ package terminal.executable;
 import service.StudentService;
 
 public class DeleteStudentByGroupNumberAndYearOfBirthExecutable implements CommandExecutable {
-    private StudentService studentService;
-    private int groupNumber;
-    private int yearOfBirth;
+    private final StudentService studentService;
+    private final int groupNumber;
+    private final int yearOfBirth;
 
-    public DeleteStudentByGroupNumberAndYearOfBirthExecutable(StudentService studentService, int groupNumber, int birthday) {
+    public DeleteStudentByGroupNumberAndYearOfBirthExecutable(StudentService studentService, int groupNumber, int yearOfBirth) {
         this.groupNumber = groupNumber;
         this.yearOfBirth = yearOfBirth;
         this.studentService = studentService;

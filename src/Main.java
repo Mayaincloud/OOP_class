@@ -1,5 +1,18 @@
+import repository.StudentRepository;
+import service.StudentService;
+import terminal.TerminalReader;
+import terminal.executable.CommandExecutableFactoryImpl;
+import terminal.CommandParserImpl;
+import db.StudentTable;
+
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello GeekBrains");
+
+
+        TerminalReader.getInstance(new CommandParserImpl(),
+                        new CommandExecutableFactoryImpl(new StudentService(new StudentRepository(new StudentTable()))))
+                .getRun();
     }
 }

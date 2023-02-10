@@ -48,7 +48,7 @@ public class StudentService implements DataService<Student> {
         return studentRepository.deleteStudent(student);
     }
 
-    public Student deleteStudentByFirstName(String firstName) {
+    public boolean deleteStudentByFirstName(String firstName) {
         return studentRepository.deleteStudentByFirstName(firstName);
     }
 

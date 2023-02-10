@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8aa5f01-3973-44aa-93c7-6dcdcab2618b" name="Changes" comment="add seminar6 and HW6">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/StudentTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal/CommandParserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ReView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ReViewFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ViewCreateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ViewDeleteStudentByFirstName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminal/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminal/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal/CommandParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminal/TerminalReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal/TerminalReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminal/executable/CreateStudentExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal/executable/CreateStudentExecutable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +29,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675679567186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add seminar6 and HW6">
+      <created>1675679894949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675679894949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

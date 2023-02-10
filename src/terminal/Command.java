@@ -1,15 +1,25 @@
 package terminal;
 
+import java.util.ArrayList;
+
 import java.util.List;
 
 public class Command {
     private final static String ADD = "/add";
     private final static String DEL = "/delete";
-
     private static final String DELBYFN = "/deleteByFirstName";
     private static final String DELETEBYGROUPANDBIRTH = "/deleteByCroupNumberAndYearOfBirth";
-    private List<String> arguments;
-    private String mainFirstCommand;
+    private final List<String> arguments;
+    private final String mainFirstCommand;
+
+    public Command(List<String> commands) {
+        this.arguments = new ArrayList<>(commands);
+        this.mainFirstCommand = commands.get(0);
+
+
+
+    }
+
 
     public String getFirstArgument(){
         return arguments.get(0);
@@ -31,4 +41,7 @@ public class Command {
 
         return mainFirstCommand.equals(DELETEBYGROUPANDBIRTH);
     }
-}
+
+
+    }
+
